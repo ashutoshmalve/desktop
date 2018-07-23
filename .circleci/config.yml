@@ -20,7 +20,7 @@ jobs:
     # The `macos` block requests that builds will run on a machine running
     # macOS with the specified version of Xcode installed
     docker:
-      image: circleci/node:8-stretch
+      image: 'circleci/node:8-stretch'
     macos:
       xcode: '9.0'
     steps:
