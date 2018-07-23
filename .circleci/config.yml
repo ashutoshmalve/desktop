@@ -42,7 +42,6 @@ jobs:
         # Any branch if there are none on the default branch - this should be unnecessary if you have your default branch configured correctly
         - v1-dep-
     # This is based on your 1.0 configuration file or project settings
-    - run: brew pin node
     - run: brew update
     - run: node -v
     - run: curl -o- -L https://yarnpkg.com/install.sh | TERM=xterm bash -s -- --version 1.5.1
