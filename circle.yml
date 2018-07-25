@@ -46,3 +46,5 @@ deployment:
     branch: /^__release-.*/
     commands:
       - yarn run publish
+      
+      
